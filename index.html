@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container container">
+                <div class="header__contact">
+                    <span>(01)123-4567</span>
+                    <span>我們的位置</span>
+                </div>
+                <p class="header__alert-news">
+                    超值優惠-省下更多
+                </p>
+                <a href="" class="header__top-action">
+                    Log in/Sign up
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                <img src="img/logo.PNG" class="nav__logo-img">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="" class="nav__link active-link">首頁</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">商店</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">帳戶</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">比較</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">登入</a></li>
+                </ul>
+                <div class="header__search">
+                    <input type="text" class="form__input" placeholder="Search ...">
+                    <button class="search__btn">
+                        <img src="img/search.png" width="20">
+                    </button>
+                </div>
+            </div>
+            <div class="header__user-actions">
+                <a href="" class="header__action-btn">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="count">3</span>
+                </a>
+                <a href="" class="header__action-btn">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    <span class="count">3</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section--lg">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">促銷活動中</span>
+                    <h1 class="home__title">時尚潮流<span>優質收藏</span></h1>
+                    <p class="home__description">
+                        全館商品8折起
+                    </p>
+                    <a href="" class="btn">即刻購買</a>
+                </div>
+                <img src="img/bg/home_bg.jpg" alt="" class="home__img">
+            </div>
+        </section>
+        <section class="categories container section">
+            <h3 class="section__title">
+                <span>熱門</span>種類
+            </h3>
+            <div class="categories__container swiper">
+                <div class="swiper-wrapper">
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/T-shit.PNG" class="categories__img">
+                        <h3 class="categories__title">T-Shirt</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/bag.PNG" class="categories__img">
+                        <h3 class="categories__title">背包</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/shoes.PNG" class="categories__img">
+                        <h3 class="categories__title">鞋子</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/cap.PNG" class="categories__img">
+                        <h3 class="categories__title">帽子</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/long.PNG" class="categories__img">
+                        <h3 class="categories__title">長袖</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/jacket.PNG" class="categories__img">
+                        <h3 class="categories__title">外套</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/pant.PNG" class="categories__img">
+                        <h3 class="categories__title">褲子</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/neck.PNG" class="categories__img">
+                        <h3 class="categories__title">項鍊</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/ring.PNG" class="categories__img">
+                        <h3 class="categories__title">戒指</h3>
+                    </a>
+
+                    <a href="" class="categories__item swiper-slide">
+                        <img src="img/categories/golves.PNG" class="categories__img">
+                        <h3 class="categories__title">其他</h3>
+                    </a>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="products container section">
+            <div class="tab__btns">
+                <span class="tab__btn active-tab" data-target="#featured">精選商品</span>
+                <span class="tab__btn" data-target="#popular">熱門精品</span>
+                <span class="tab__btn" data-target="#new-added">新品上市</span>
+            </div>
+            <div class="tab__items">
+                <div class="tab__item active-tab" content id="featured">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c01a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c01b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    衣服
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        繽紛幾何T恤
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$199</span>
+                                    <span class="old__price">$259</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c02a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c02b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    衣服
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        卡通倉鼠T恤
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/pant/p01a.png" alt="" class="product__img default">
+                                    <img src="img/pant/p01b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-orange">30%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    長褲
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士側翻蓋抽繩長褲
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/pant/p02a.png" alt="" class="product__img default">
+                                    <img src="img/pant/p02b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    長褲
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士工裝9分褲
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c03a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c03b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    襯衫
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        直條紋三樹襯衫
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/jacket/j01a.png" alt="" class="product__img default">
+                                    <img src="img/jacket/j01b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    外套
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        卡通貼布小熊外套
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c04a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c04b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    襯衫
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        黑白撞色潑墨襯衫
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/pant/p03a.png" alt="" class="product__img default">
+                                    <img src="img/pant/p03b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    長褲
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        工裝多口袋抽繩長褲
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__item" content id="popular">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/jacket/j02a.png" alt="" class="product__img default">
+                                    <img src="img/jacket/j02b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    外套
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        卡通危險笑臉棒球外套
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/jacket/j03a.png" alt="" class="product__img default">
+                                    <img src="img/jacket/j03b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    外套
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        卡通小熊棒球外套
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c04a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c04b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    襯衫
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        黑白撞色潑墨襯衫
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/pant/p04a.png" alt="" class="product__img default">
+                                    <img src="img/pant/p04b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    長褲
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        卡通藍磁鐵小熊牛仔褲
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/jacket/j01a.png" alt="" class="product__img default">
+                                    <img src="img/jacket/j01b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    外套
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        卡通貼布小熊外套
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/jacket/j04a.png" alt="" class="product__img default">
+                                    <img src="img/jacket/j04b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    外套
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        黑白抽繩反光連帽夾克
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c02a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c02b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    衣服
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        卡通倉鼠T恤
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/pant/p01a.png" alt="" class="product__img default">
+                                    <img src="img/pant/p01b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-orange">30%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    長褲
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士側翻蓋抽繩長褲
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__item" content id="new-added">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c05a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c05b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    襯衫
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士條紋印花口袋貼布襯衫
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c06a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c06b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    襯衫
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士翻蓋口袋落肩袖襯衫
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/cloth/c07a.png" alt="" class="product__img default">
+                                    <img src="img/cloth/c07b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-orange">30%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    背心
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士拉鍊口袋夾克背心
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/pant/p05a.png" alt="" class="product__img default">
+                                    <img src="img/pant/p05b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    長褲
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士頂針斜口袋工裝褲
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/jacket/j02a.png" alt="" class="product__img default">
+                                    <img src="img/jacket/j02b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    外套
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        卡通危險笑臉棒球外套
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/pant/p06a.png" alt="" class="product__img default">
+                                    <img src="img/pant/p06b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    長褲
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士斜口袋腰部抽繩束腳牛仔褲
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/pant/p07a.png" alt="" class="product__img default">
+                                    <img src="img/pant/p07b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">new</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    長褲
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士拼接抽繩直筒牛仔褲
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="" class="product__images">
+                                    <img src="img/jacket/j05a.png" alt="" class="product__img default">
+                                    <img src="img/jacket/j05b.png" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fa-solid fa-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">
+                                    外套
+                                </span>
+                                <a href="">
+                                    <h3 class="product__title">
+                                        男士滿版印花條紋飾邊夾克
+                                    </h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$200</span>
+                                    <span class="old__price">$240</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="deals section">
+            <div class="deals__container container grid">
+                <div class="deals__item">
+                    <div class="deals__group">
+                        <h3 class="deals__brand">每日好康</h3>
+                        <span class="deals__category">限時好禮</span>
+                    </div>
+                    <h4 class="deals__title">夏季特賣新精品</h4>
+                    <div class="deals__price flex">
+                        <span class="new__price">$479</span>
+                        <span class="old__price">$530</span>
+                    </div>
+                    <div class="deals__group">
+                        <div class="deals__countdown-text">優惠倒數</div>
+                        <div class="countdown">
+                            <div class="countdown__amount">
+                                <p class="countdown__period">02</p>
+                                <span class="unit">Days</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">22</p>
+                                <span class="unit">Hour</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">50</p>
+                                <span class="unit">Mins</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">10</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals__btn">
+                        <a href="" class="btn btn--md">立即購買</a>
+                    </div>
+                </div>
+                <div class="deals__item">
+                    <div class="deals__group">
+                        <h3 class="deals__brand">4月特賣</h3>
+                        <span class="deals__category">夏季穿搭</span>
+                    </div>
+                    <h4 class="deals__title">夏天就是該來點清爽的搭配</h4>
+                    <div class="deals__price flex">
+                        <span class="new__price">$359</span>
+                        <span class="old__price">$460</span>
+                    </div>
+                    <div class="deals__group">
+                        <div class="deals__countdown-text">優惠倒數</div>
+                        <div class="countdown">
+                            <div class="countdown__amount">
+                                <p class="countdown__period">02</p>
+                                <span class="unit">Days</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">22</p>
+                                <span class="unit">Hour</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">50</p>
+                                <span class="unit">Mins</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">10</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals__btn">
+                        <a href="" class="btn btn--md">立即購買</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="new__arrivals container section">
+            <h3 class="section__title">
+                <span>新品</span>到貨
+            </h3>
+            <div class="new__container swiper">
+                <div class="swiper-wrapper">
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="" class="product__images">
+                                <img src="img/cloth/c05a.png" alt="" class="product__img default">
+                                <img src="img/cloth/c05b.png" alt="" class="product__img hover">
+                            </a>
+
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-pink">Hot</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">
+                                襯衫
+                            </span>
+                            <a href="">
+                                <h3 class="product__title">
+                                    男士條紋印花口袋貼布襯衫
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$200</span>
+                                <span class="old__price">$240</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="" class="product__images">
+                                <img src="img/cloth/c06a.png" alt="" class="product__img default">
+                                <img src="img/cloth/c06b.png" alt="" class="product__img hover">
+                            </a>
+
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-green">new</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">
+                                襯衫
+                            </span>
+                            <a href="">
+                                <h3 class="product__title">
+                                    男士翻蓋口袋落肩袖襯衫
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$200</span>
+                                <span class="old__price">$240</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="" class="product__images">
+                                <img src="img/cloth/c07a.png" alt="" class="product__img default">
+                                <img src="img/cloth/c07b.png" alt="" class="product__img hover">
+                            </a>
+
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-orange">30%</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">
+                                背心
+                            </span>
+                            <a href="">
+                                <h3 class="product__title">
+                                    男士拉鍊口袋夾克背心
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$200</span>
+                                <span class="old__price">$240</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="" class="product__images">
+                                <img src="img/pant/p05a.png" alt="" class="product__img default">
+                                <img src="img/pant/p05b.png" alt="" class="product__img hover">
+                            </a>
+
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-pink">Hot</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">
+                                長褲
+                            </span>
+                            <a href="">
+                                <h3 class="product__title">
+                                    男士頂針斜口袋工裝褲
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$200</span>
+                                <span class="old__price">$240</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="" class="product__images">
+                                <img src="img/jacket/j02a.png" alt="" class="product__img default">
+                                <img src="img/jacket/j02b.png" alt="" class="product__img hover">
+                            </a>
+
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-pink">Hot</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">
+                                外套
+                            </span>
+                            <a href="">
+                                <h3 class="product__title">
+                                    卡通危險笑臉棒球外套
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$200</span>
+                                <span class="old__price">$240</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="" class="product__images">
+                                <img src="img/pant/p06a.png" alt="" class="product__img default">
+                                <img src="img/pant/p06b.png" alt="" class="product__img hover">
+                            </a>
+
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-green">new</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">
+                                長褲
+                            </span>
+                            <a href="">
+                                <h3 class="product__title">
+                                    男士斜口袋腰部抽繩束腳牛仔褲
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$200</span>
+                                <span class="old__price">$240</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="" class="product__images">
+                                <img src="img/pant/p07a.png" alt="" class="product__img default">
+                                <img src="img/pant/p07b.png" alt="" class="product__img hover">
+                            </a>
+
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-green">new</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">
+                                長褲
+                            </span>
+                            <a href="">
+                                <h3 class="product__title">
+                                    男士拼接抽繩直筒牛仔褲
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$200</span>
+                                <span class="old__price">$240</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="" class="product__images">
+                                <img src="img/jacket/j05a.png" alt="" class="product__img default">
+                                <img src="img/jacket/j05b.png" alt="" class="product__img hover">
+                            </a>
+
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fa-regular fa-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fa-solid fa-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-pink">Hot</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">
+                                外套
+                            </span>
+                            <a href="">
+                                <h3 class="product__title">
+                                    男士滿版印花條紋飾邊夾克
+                                </h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">$200</span>
+                                <span class="old__price">$240</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="showcase section">
+            <div class="showcase__container container grid">
+                <div class="showcase__wrapper">
+                    <h3 class="section__title">
+                        熱門商品
+                    </h3>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/jacket/j02a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">卡通危險笑臉棒球外套</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/jacket/j03a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">卡通小熊外套</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/cloth/c04a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">黑白撞色潑墨襯衫</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__wrapper">
+                    <h3 class="section__title">
+                        近期販售
+                    </h3>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/cloth/c04a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">黑白撞色潑墨襯衫</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/pant/p05a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">男士頂針斜口工裝褲</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/jacket/j01a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">卡通小熊貼布外套</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__wrapper">
+                    <h3 class="section__title">
+                        銷售排行
+                    </h3>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/cloth/c02a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">卡通倉鼠T恤</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/cloth/c03a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">直條紋三樹襯衫</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/jacket/j05a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">男士滿版印花條紋飾邊夾克</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__wrapper">
+                    <h3 class="section__title">
+                        流行趨勢
+                    </h3>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/jacket/j03a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">卡通小熊外套</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/pant/p03a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">工裝多口袋抽繩長褲</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="" class="showcase__img-box">
+                            <img src="img/cloth/c07a.png" alt="" class="showcase__img">
+                        </a>
+                        <div class="showcase__content">
+                            <a href="">
+                                <h4 class="showcase__title">男士拉鍊口袋夾克背心</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">$240</span>
+                                <span class="old__price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/a97467505f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
