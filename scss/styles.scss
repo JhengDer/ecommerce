@@ -419,12 +419,14 @@ input {
     grid-template-columns: repeat(4, 1fr);
 }
 
+
+
 .product__item {
     overflow: hidden;
     border: 1px solid $border-color;
     border-radius: 1.5rem;
     transition: all .2s $transition;
-
+    
     &:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     }
@@ -758,5 +760,25 @@ input {
                 margin-left: 1rem;
             }
         }
+    }
+}
+@media screen and (max-width:768px) {
+
+    .nav{
+        .nav__menu{
+            margin-left: 1rem;
+            .nav__list{
+                column-gap: 1rem;
+            }
+            .header__search{
+                width: 250px;
+            }
+        }
+    }
+    .products__container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .deals__container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
