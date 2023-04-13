@@ -129,6 +129,9 @@ input {
   width: 100%;
   margin-left: 2.5rem;
 }
+.nav .nav__menu .nav-collaspe {
+  display: none;
+}
 .nav .nav__menu .nav__list {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -144,7 +147,7 @@ input {
   color: rgb(8, 130, 122);
 }
 .nav .nav__menu .header__search {
-  width: 340px;
+  width: 25rem;
   position: relative;
 }
 .nav .nav__menu .header__search .form__input {
@@ -647,7 +650,73 @@ input {
   .products__container {
     grid-template-columns: repeat(4, 1fr);
   }
+  .swiper .swiper-button-prev {
+    left: 85%;
+  }
+  .swiper .swiper-button-next,
+  .swiper .swiper-button-prev {
+    height: 40px;
+    width: 40px;
+  }
   .deals__container {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 426px) {
+  * {
+    font-size: 60%;
+  }
+  .nav {
+    position: relative;
+  }
+  .nav .nav__logo {
+    display: none;
+  }
+  .nav .nav__menu {
+    margin-left: 0;
+    -moz-column-gap: 1.2rem;
+         column-gap: 1.2rem;
+  }
+  .nav .nav__menu .nav-collaspe {
+    display: block;
+    cursor: pointer;
+  }
+  .nav .nav__menu .nav-collaspe i {
+    font-size: 3rem;
+  }
+  .nav .nav__menu .nav__list {
+    content: "";
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    width: 98%;
+    background-color: rgb(8, 130, 122);
+    display: none;
+    padding-top: 1rem;
+  }
+  .nav .nav__menu .nav__list .nav__item {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .nav .nav__menu .nav__list .nav__item .nav__link {
+    font-size: 1.75rem;
+  }
+  .nav .nav__menu .nav__list .nav__item .active-link,
+  .nav .nav__menu .nav__list .nav__item .nav__link:hover {
+    color: rgb(255, 255, 255);
+  }
+  .nav .nav__menu .header__search {
+    width: 100%;
+  }
+  .products__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .swiper .swiper-button-prev {
+    left: 85%;
+  }
+  .swiper .swiper-button-next,
+  .swiper .swiper-button-prev {
+    height: 20px;
+    width: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */

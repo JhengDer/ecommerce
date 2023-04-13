@@ -4,7 +4,7 @@ var swiperCategories = new Swiper(".categories__container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  slidesPerView: 2,
+  slidesPerView: 3,
   breakpoints: {
     640: {
       slidesPerView: 3,
@@ -30,7 +30,7 @@ var swiperProducts = new Swiper(".new__container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  slidesPerView: 2,
+  slidesPerView: 3,
   breakpoints: {
     640: {
       slidesPerView: 3,
@@ -76,4 +76,8 @@ tabs.forEach((tab) => {
     });
     target.classList.add('active-tab');
   });
+});
+
+$(".nav-collaspe").click(()=>{
+  $(".nav__list").slideToggle();;
 });
