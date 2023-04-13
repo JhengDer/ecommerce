@@ -642,7 +642,7 @@ input {
          column-gap: 1rem;
   }
   .nav .nav__menu .header__search {
-    width: 250px;
+    width: 240px;
   }
   .products__container {
     grid-template-columns: repeat(4, 1fr);
