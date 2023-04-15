@@ -811,7 +811,7 @@ input {
 
 @media screen and (max-width:426px) {
     * {
-        font-size: 60%;
+        font-size: 80%;
     }
 
     .nav {
@@ -908,6 +908,92 @@ input {
         .swiper-button-prev {
             height: 20px;
             width: 20px;
+        }
+    }
+    .deals__container {
+        .deals__item {
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1.5rem;
+            position: relative;
+    
+            .deals__brand {
+                color: $first-color;
+                font-size: $h3-font-size;
+                margin-bottom: .25rem;
+    
+                .deals__category {
+                    font-family: $second-font;
+                    font-size: $smaller-font-size;
+                }
+            }
+    
+            .deals__title {
+                min-width: 240px;
+                font-size: $large-font-size;
+                font-weight: $weight-500;
+                line-height: 1.3;
+            }
+    
+            .deals__group {
+                .deals__countdown-text {
+                    margin-bottom: .25rem;
+                }
+    
+                .countdown {
+                    display: flex;
+                    column-gap: 1.5rem;
+    
+                    .countdown__amount {
+                        position: relative;
+    
+                        &::after {
+                            content: ':';
+                            color: $title-color;
+                            font-size: $large-font-size;
+                            position: absolute;
+                            right: -15%;
+                            top: 20%;
+                        }
+    
+                        &:last-child::after {
+                            display: none;
+                        }
+    
+                        .countdown__period {
+                            width: 60px;
+                            height: 50px;
+                            text-align: center;
+                            background-color: $first-color;
+                            color: $body-color;
+                            border-radius: .25rem;
+                            font-weight: $weight-600;
+                            margin-bottom: .5rem;
+                        }
+    
+                        .unit {
+                            font-size: $small-font-size;
+                            text-align: center;
+                            display: block;
+                        }
+                    }
+                }
+            }
+    
+            .deals__btn {
+                .btn {
+                    background-color: transparent;
+                    color: $first-color;
+                    transition: .3s all $transition;
+    
+                    &:hover {
+                        background-color: $first-color;
+                        color: $body-color;
+                    }
+                }
+            }
         }
     }
 }
