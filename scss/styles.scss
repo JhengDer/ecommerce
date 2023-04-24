@@ -899,10 +899,19 @@ input {
     }
   }
 
-  .products__container {
-    grid-template-columns: repeat(2, 1fr);
+  .home__container {
+    display: block;
+    position: relative;
+    img{
+        position: absolute;
+        top: -10%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .5;
+        z-index: -3;
+    }
   }
-
   .swiper {
     .swiper-button-prev {
       left: 85%;
@@ -1011,11 +1020,11 @@ input {
     }
   }
   .showcase__container {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  .showcase__wrapper{
-    .section__title{
-        font-size: 100%;
+  .showcase__wrapper {
+    .section__title {
+      font-size: 100%;
     }
   }
 }

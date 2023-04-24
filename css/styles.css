@@ -741,8 +741,18 @@ input {
   .nav .header__user-actions .header__action-btn img {
     width: 30px;
   }
-  .products__container {
-    grid-template-columns: repeat(2, 1fr);
+  .home__container {
+    display: block;
+    position: relative;
+  }
+  .home__container img {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: -3;
   }
   .swiper .swiper-button-prev {
     left: 85%;
