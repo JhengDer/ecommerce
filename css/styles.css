@@ -825,4 +825,7 @@ input {
   .new__container .product__item .product__content .product__title {
     height: 40px;
   }
+  .showcase__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }/*# sourceMappingURL=styles.css.map */
