@@ -1023,7 +1023,12 @@ input {
     grid-template-columns: repeat(2, 1fr);
     .showcase__wrapper {
       .showcase__item {
+        .showcase__img-box{
+          text-align: center;
+          width: 100%;
+        }
         .showcase__content {
+          width: 100%;
           a {
             .showcase__title {
               font-size: 16px;
