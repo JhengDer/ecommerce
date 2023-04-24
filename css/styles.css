@@ -839,7 +839,7 @@ input {
   .showcase__container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .showcase__wrapper .section__title {
+  .showcase__container .showcase__wrapper .showcase__item .showcase__content a {
     font-size: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -1021,10 +1021,14 @@ input {
   }
   .showcase__container {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .showcase__wrapper {
-    .section__title {
-      font-size: 100%;
+    .showcase__wrapper {
+      .showcase__item {
+        .showcase__content {
+            a{
+                font-size: 100%;
+            }
+        }
+      }
     }
   }
 }
