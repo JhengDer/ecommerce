@@ -828,4 +828,7 @@ input {
   .showcase__container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .showcase__wrapper .section__title {
+    font-size: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
