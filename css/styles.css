@@ -697,12 +697,13 @@ input {
     position: absolute;
     flex-direction: column;
     top: 100%;
-    width: 98%;
-    left: 1%;
+    width: 100%;
+    left: 0%;
     background-color: rgb(8, 130, 122);
     display: none;
     padding-top: 1rem;
     opacity: 0.9;
+    z-index: 3;
   }
   .nav .nav__menu .nav__list .nav__item {
     text-align: center;

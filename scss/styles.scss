@@ -842,13 +842,13 @@ input {
         position: absolute;
         flex-direction: column;
         top: 100%;
-        width: 98%;
-        left: 1%;
+        width: 100%;
+        left: 0%;
         background-color: $first-color;
         display: none;
         padding-top: 1rem;
         opacity: 0.9;
-
+        z-index: 3;
         .nav__item {
           text-align: center;
           margin-bottom: 1rem;
@@ -902,14 +902,14 @@ input {
   .home__container {
     display: block;
     position: relative;
-    img{
-        position: absolute;
-        top: -10%;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: .5;
-        z-index: -3;
+    img {
+      position: absolute;
+      top: -10%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.5;
+      z-index: -3;
     }
   }
   .swiper {
