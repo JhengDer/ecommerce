@@ -1024,9 +1024,11 @@ input {
     .showcase__wrapper {
       .showcase__item {
         .showcase__content {
-            a{
-                font-size: 100%;
+          a {
+            .showcase__title {
+              font-size: 100%;
             }
+          }
         }
       }
     }
