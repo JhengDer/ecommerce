@@ -30,7 +30,7 @@ var swiperProducts = new Swiper(".new__container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  slidesPerView: 3,
+  slidesPerView: 2,
   breakpoints: {
     640: {
       slidesPerView: 3,
